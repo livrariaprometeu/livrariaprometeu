@@ -169,7 +169,7 @@
 
 /* CASO A TELA SEJA PEQUENA */
 
-@media (max-width: 768px) {
+@media (max-width: 1000px) {
     .linhaServicos {
         display: flex;
         flex-direction: column;
@@ -224,4 +224,5 @@
         background-repeat: no-repeat; /* Evita repetição da imagem */
         background-image: url(imgFilosofo.png);
     }
+
 }
