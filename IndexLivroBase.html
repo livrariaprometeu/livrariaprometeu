@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visualizador de EPUB com Anúncios e Capítulo</title>
+    <link rel="stylesheet" href="styleLivroBase.css">
+</head>
+<body>
+    <a class="botao" href="indexLivraria.html"></a> 
+    <div id="ad-container" style="display: none;">
+        <div id="ad-content">
+            <p>Anúncio: Compre nossos livros! <a href="https://example.com">Saiba mais</a></p>
+            <button id="close-ad">Fechar Anúncio</button>
+        </div>
+    </div>
+    <div id="book-container">
+        <div id="reader" style="height: 80vh;"></div>
+    </div>
+    <div id="navigation">
+        <button id="prev-page">Página Anterior</button>
+        <span id="page-info">Página 1</span>
+        <span id="chapter-info">Capítulo: Carregando...</span>
+        <button id="next-page">Próxima Página</button>
+    </div>
+    <div id="controls">
+        <button id="font-smaller">Fonte -</button>
+        <button id="font-larger">Fonte +</button>
+        <button id="toggle-theme">Modo Noturno</button>
+        <select id="chapter-selector">
+            <option value="">Selecionar Capítulo</option>
+        </select>
+    </div>
+    <!-- Inclua JSZip e EPUB.js via CDN -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/epubjs/dist/epub.min.js"></script>
+    <script src="scriptLivroBase.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

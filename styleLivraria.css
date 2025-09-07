@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+}
+.body {
+    background-color: #F2E9DC;
+}
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+.esqueleto {
+    display: flex;
+    flex-direction: row;
+    height: 30rem;
+    width: 44rem;
+}
+.livraria {
+    display: flex;
+    height: 30rem;
+    width: 40rem;
+    margin: 0px 2rem 0px 0px;
+}
+.anuncio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 30rem;
+    width: 12rem;
+    background-color: #F4EEE4;
+    border: 1px solid #302218;
+}
+.livro {
+    display: flex;
+    flex-direction: column;
+    align-items: center ;
+    height: 18rem;
+    width: 12rem;  
+}
+.capa {
+    height: 13rem;
+    width: 12rem;
+    background-image: linear-gradient(to right, #302218, #382517);
+}
+.tituloLivro {
+    margin: 10px 0px;
+}

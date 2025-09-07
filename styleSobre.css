@@ -1,0 +1,27 @@
+* {
+    margin: 0%;
+}
+.body {
+    background-color: #F2E9DC;
+}
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.sobre {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    width: 60rem;
+    height: 100%;
+
+    margin: 30px;
+}
+.tituloSobre {
+    margin: 20px;
+}
+.slogan {
+    margin: 20px;
+}

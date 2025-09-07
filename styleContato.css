@@ -1,0 +1,49 @@
+* {
+    margin: 0%;
+}
+.body {
+    background-color: #F2E9DC;
+}
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.tituloSobre {
+    color: #302218;
+}
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    height: 100%;
+    width: 40rem;
+
+    margin: 60px;
+}
+.input {
+    margin: 0px 0px 20px 0px;
+}
+.linha1 {
+    display: flex;
+}
+.tituloInput {
+    color: #302218;
+}
+.line1 {
+    background-color: #F2E9DC;
+    height: 30px;
+    width: 15rem;
+}
+#nome {
+    margin: 0px 2rem 20px 0px;
+}
+.line2, .line3 {
+    background-color: #F2E9DC;
+    height: 30px;
+    width: 32rem;
+}
+.line3 {
+    height: 7rem;
+}

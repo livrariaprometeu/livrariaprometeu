@@ -1,0 +1,135 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #F2E9DC;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#book-container {
+    width: 100%;
+    max-width: 800px;
+    background-color: F2E9DC;
+    border: 1px solid #ccc;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+#reader {
+    height: 80vh;
+    overflow: hidden;
+}
+
+#navigation, #controls {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 800px;
+}
+
+#chapter-info {
+    font-weight: bold;
+    color: #333;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #8B594A;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+button:hover {
+    background-color: #E19C82;
+}
+
+button:disabled {
+    background-color: #ffffff;
+    cursor: not-allowed;
+}
+
+select {
+    padding: 10px;
+    font-size: 16px;
+}
+
+#ad-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: none;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+#ad-content {
+    background-color: #F2E9DC;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    max-width: 90%;
+    max-height: 80%;
+    overflow: auto;
+}
+
+#close-ad {
+    margin-top: 10px;
+    background-color: #8B594A;
+}
+
+#close-ad:hover {
+    background-color: #E19C82;
+}
+
+@media (max-width: 600px) {
+    #reader {
+        height: 70vh;
+        font-size: 14px;
+    }
+    #navigation, #controls {
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+    #chapter-info {
+        flex: 1;
+        text-align: center;
+        margin: 10px 0;
+    }
+    button, select {
+        flex: 1;
+        min-width: 100px;
+    }
+    #ad-content {
+        max-width: 95%;
+        padding: 15px;
+    }
+}
+
+.dark-theme {
+    background-color: #1a1a1a;
+    color: #F2E9DC;
+}
+
+.dark-theme #book-container {
+    background-color: #2c2c2c;
+    border-color: #444;
+}
+
+.dark-theme #ad-content {
+    background-color: #2c2c2c;
+    color: #F2E9DC;
+}
+
+.dark-theme #chapter-info {
+    color: #F2E9DC;
+}

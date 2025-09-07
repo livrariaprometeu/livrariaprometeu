@@ -1,0 +1,67 @@
+* {
+    margin: 0%;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url(/font/Montserrat/Montserrat-VariableFont_wght.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'Crimson';
+    src: url(/font/Crimson_Pro/CrimsonPro-VariableFont_wght.ttf);
+}
+
+.cabecalho {
+    display: flex;
+    align-items: center;
+
+    padding: 0px;
+    background-color: #F2E8DB;
+}
+
+.logo {
+    background-image: url('imgLogo_prometeu.png');
+    height: 4.2rem;
+    width: 4.2rem;
+    background-size: cover; /* Ajusta a imagem para cobrir o elemento */
+    background-position: center; /* Centraliza a imagem */
+    background-repeat: no-repeat; /* Evita repetição da imagem */ 
+}
+
+#saudacao {
+    font-family: 'Montserrat';
+    color: #502d1f ;
+    margin: 0px 50px 0px 0px;
+}
+
+.moduloCabecalho {
+    height: 4.2rem;
+    width: 7rem;
+    background-color: #F2E8DB;
+
+    text-align: center;
+    line-height: 4rem;
+    color: #502d1f;
+
+    font-style: normal;
+    text-decoration: none;
+}
+
+.moduloCabecalho_2 {
+    padding: 4px 12px 8px 12px;
+    background-color: #000000;
+}
+
+.FotoLogin {
+    background-image: url('imgLogo_prometeu.png');
+    height: 2rem;
+    width: 2rem;
+    margin: 0% 1rem 0% 0%;
+    background-size: cover; /* Ajusta a imagem para cobrir o elemento */
+    background-position: center; /* Centraliza a imagem */
+    background-repeat: no-repeat; /* Evita repetição da imagem */ 
+}
+
+.botao {
+    margin: "0px 0px 0px 3rem",
+}
