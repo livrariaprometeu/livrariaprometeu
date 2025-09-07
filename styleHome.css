@@ -176,6 +176,17 @@
         align-items: center;
         width: 100%;
     }
+    .imagemArtigos {
+        width: 60rem;
+        height: 20rem;
+        border-radius: 10px;
+        background-size: cover; /* Ajusta a imagem para cobrir o elemento */
+        background-position: center; /* Centraliza a imagem */
+        background-repeat: no-repeat; /* Evita repetição da imagem */
+        background-color: #302218;
+    
+        margin: 0px 0px 1rem 0px;
+    }
     .linhaArtigos {
         display: flex;
         flex-direction: column;
@@ -228,4 +239,5 @@
     }
 
 }
+
 
