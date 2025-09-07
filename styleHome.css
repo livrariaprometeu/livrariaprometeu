@@ -202,12 +202,12 @@
         
         text-align: center;
 
-        font-size: xx-large;
+        font-size: 70px;
         font-family: 'Montserrat';
     }
     .textoHero{
         color: rgba(250, 235, 215, 0.649);
-        font-size: 70px;
+        font-size: 30px;
         text-align: center;
         padding: 0px 0px 5rem 0px;
     }
@@ -217,6 +217,8 @@
         display: flex;
         flex-direction: column;
         align-items: center;
+
+        width: 100%;
     }
     .imagemServicos {
         width: 10rem;
@@ -242,7 +244,7 @@
         text-align: center;
         justify-content: center;
         
-        height: 20rem;
+        height: 100%;
         width: 30rem;
 
         font-size: xx-large;
@@ -257,6 +259,8 @@
         display: flex;
         flex-direction: column;
         align-items: center;
+
+        width: 100%;
     }
     .imagemArtigos {
         width: 30rem;
