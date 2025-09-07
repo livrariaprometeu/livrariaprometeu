@@ -177,8 +177,8 @@
         text-align: center;
         justify-content: center;
         
-        width: 60rem;
-        height: 40rem;
+        width: 20rem;
+        height: 60rem;
         margin: 3rem 3rem;
     
         font-size: larger;
@@ -193,8 +193,8 @@
         width: 100%;
     }
     .imagemArtigos {
-        width: 60rem;
-        height: 40rem;
+        width: 20rem;
+        height: 60rem;
         border-radius: 10px;
         background-size: cover; /* Ajusta a imagem para cobrir o elemento */
         background-position: center; /* Centraliza a imagem */
@@ -255,6 +255,7 @@
     }
 
 }
+
 
 
 
