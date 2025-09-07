@@ -224,11 +224,13 @@
         background-size: cover; /* Ajusta a imagem para cobrir o elemento */
         background-position: center; /* Centraliza a imagem */
         background-repeat: no-repeat; /* Evita repetição da imagem */
+        font-size: xx-large;
 
         width: 100%;
     }
     #resenhas {
-        background-image: url(imgLivro.png)
+        background-image: url(imgLivro.png);
+        width: 7rem;
     }
     #livros {
         background-image: url(imgColuna.png);
@@ -236,6 +238,7 @@
     }
     #vendas {
         background-image: url(imgLink-quebrado.png);
+        width: 7rem;
     }
     .servico {
         display: flex;
