@@ -251,9 +251,9 @@
         text-align: center;
         justify-content: center;
         
-        height: 100%;
-        width: 100%;
-        padding: 2rem;
+        height: 50px;
+        width: 50px;
+        padding: 2px;
 
         font-size: xx-large;
         text-decoration: solid;
