@@ -170,6 +170,17 @@
 /* CASO A TELA SEJA PEQUENA */
 
 @media (max-width: 1000px) {
+    #resenhas {
+        background-image: url(imgLivro.png)
+    }
+    #livros {
+        background-image: url(imgColuna.png);
+        width: 20rem;
+        height: 60rem;
+    }
+    #vendas {
+        background-image: url(imgLink-quebrado.png);
+    }
     .servico {
         display: flex;
         flex-direction: column;
@@ -255,6 +266,7 @@
     }
 
 }
+
 
 
 
