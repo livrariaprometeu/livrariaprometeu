@@ -178,9 +178,10 @@
         background-color: #F2E9DC;
     }
     .botao {
-        height: 2rem;
-        width: 5rem;
+        height: 3rem;
+        width: 7rem;
         text-align: center;
+        align-items: center;
     }
     /* HERO */
     .hero {
@@ -191,7 +192,7 @@
         align-items: center;
         justify-content: end;
 
-        height: 30rem;
+        height: 40rem;
         width: 100%;
         
         padding: 5rem 0px;
@@ -231,14 +232,17 @@
     #resenhas {
         background-image: url(imgLivro.png);
         width: 7rem;
+        height: 100%;
     }
     #livros {
         background-image: url(imgColuna.png);
         width: 7rem;
+        height: 100%;
     }
     #vendas {
         background-image: url(imgLink-quebrado.png);
         width: 7rem;
+        height: 100%;
     }
     .servico {
         display: flex;
@@ -310,8 +314,6 @@
         display: flex;
         flex-direction: column;
         margin: 0rem 5rem 5rem 5rem;
-
-        width: 100%;
     }
     .tituloDescricao {
         margin: 0px 0px 25px 0px;
