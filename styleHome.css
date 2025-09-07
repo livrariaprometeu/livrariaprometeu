@@ -175,8 +175,8 @@
     }
     #livros {
         background-image: url(imgColuna.png);
-        width: 20rem;
-        height: 60rem;
+        width: 100%;
+        height: 100%;
     }
     #vendas {
         background-image: url(imgLink-quebrado.png);
@@ -188,8 +188,8 @@
         text-align: center;
         justify-content: center;
         
-        width: 20rem;
-        height: 60rem;
+        width: 100%;
+        height: 30rem;
         margin: 3rem 3rem;
     
         font-size: larger;
@@ -204,8 +204,8 @@
         width: 100%;
     }
     .imagemArtigos {
-        width: 20rem;
-        height: 60rem;
+        width: 100%;
+        height: 30rem;
         border-radius: 10px;
         background-size: cover; /* Ajusta a imagem para cobrir o elemento */
         background-position: center; /* Centraliza a imagem */
@@ -266,6 +266,7 @@
     }
 
 }
+
 
 
 
