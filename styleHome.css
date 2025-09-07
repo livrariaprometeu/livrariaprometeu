@@ -251,15 +251,15 @@
         text-align: center;
         justify-content: center;
         
-        height: 5rem;
-        width: 5rem;
-        padding: 10px;
+        height: 10rem;
+        width: 10rem;
+        padding: 2rem;
 
         font-size: xx-large;
         text-decoration: solid;
 
         color: #302218;
-        background-color: #aa4f0e;
+        background-color: #160eaa;
     }
 
     /* LINHA ARTIGOS */
