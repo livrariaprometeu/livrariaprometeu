@@ -178,6 +178,8 @@
         background-color: #F2E9DC;
     }
     .botao {
+        height: 10rem;
+        width: 5rem;
         text-align: center;
     }
     /* HERO */
@@ -205,7 +207,7 @@
     }
     .textoHero{
         color: rgba(250, 235, 215, 0.649);
-        font-size: large;
+        font-size: 70px;
         text-align: center;
         padding: 0px 0px 5rem 0px;
     }
@@ -222,8 +224,6 @@
         background-size: cover; /* Ajusta a imagem para cobrir o elemento */
         background-position: center; /* Centraliza a imagem */
         background-repeat: no-repeat; /* Evita repetição da imagem */
-
-        margin: 0px 0px 1rem 0px;
     }
     #resenhas {
         background-image: url(imgLivro.png)
@@ -244,9 +244,8 @@
         
         height: 20rem;
         width: 30rem;
-        margin: 3rem 3rem;
 
-        font-size: larger;
+        font-size: xx-large;
         text-decoration: solid;
 
         color: #302218;
@@ -267,8 +266,6 @@
         background-position: center; /* Centraliza a imagem */
         background-repeat: no-repeat; /* Evita repetição da imagem */
         background-color: #302218;
-
-        margin: 0px 0px 1rem 0px;
     }
     #imgArtigo1 {
         background-image: url(#)
@@ -306,7 +303,7 @@
         flex-direction: column;
         margin: 0rem 5rem 5rem 5rem;
 
-        width: 30rem;
+        width: 100%;
     }
     .tituloDescricao {
         margin: 0px 0px 25px 0px;
@@ -318,7 +315,7 @@
         margin: 0px 0px 25px 0px;
     }    
     .slogan {
-        font-size: 1.2rem;
+        font-size: 2.5rem;
     }
     .CTA {
         display: flex;
