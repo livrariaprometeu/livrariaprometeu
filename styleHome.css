@@ -167,54 +167,20 @@
     background-image: url(imgFilosofo.png);
 }
 
-/* CASO A TELA SEJA PEQUENA */
+/*  -----------------------------------   CASO A TELA SEJA PEQUENA   -------------------------------------------------- */
+
 @media (max-width: 1000px) {
-    #resenhas {
-        background-image: url(imgLivro.png)
-    }
-    #livros {
-        background-image: url(imgColuna.png);
-    }
-    #vendas {
-        background-image: url(imgLink-quebrado.png);
-    }
-    .servico {
+    /* ESQUELETO */
+    .esqueleto {
         display: flex;
         flex-direction: column;
         align-items: center;
+        background-color: #F2E9DC;
+    }
+    .botao {
         text-align: center;
-        justify-content: center;
-        
-        width: 60rem;
-        height: 40rem;
-        margin: 3rem 3rem;
-    
-        font-size: larger;
-        text-decoration: solid;
-    
-        color: #302218;
     }
-    .linhaServicos {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-    .imagemArtigos {
-        width: 60rem;
-        height: 40rem;
-        border-radius: 10px;
-        background-size: cover; /* Ajusta a imagem para cobrir o elemento */
-        background-position: center; /* Centraliza a imagem */
-        background-repeat: no-repeat; /* Evita repetição da imagem */
-        background-color: #302218;
-    
-        margin: 0px 0px 1rem 0px;
-    }
-    .linhaArtigos {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
+    /* HERO */
     .hero {
         display: flex;
         background-color: #302218;
@@ -228,21 +194,129 @@
         
         padding: 5rem 0px;
     }
+    .tituloHero{
+        padding: 2rem;
+        color: antiquewhite;
+        
+        text-align: center;
+
+        font-size: xx-large;
+        font-family: 'Montserrat';
+    }
+    .textoHero{
+        color: rgba(250, 235, 215, 0.649);
+        font-size: large;
+        text-align: center;
+        padding: 0px 0px 5rem 0px;
+    }
+
+    /* LINHA SERVIÇOS */
+    .linhaServicos {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .imagemServicos {
+        width: 10rem;
+        height: 10rem;
+        background-size: cover; /* Ajusta a imagem para cobrir o elemento */
+        background-position: center; /* Centraliza a imagem */
+        background-repeat: no-repeat; /* Evita repetição da imagem */
+
+        margin: 0px 0px 1rem 0px;
+    }
+    #resenhas {
+        background-image: url(imgLivro.png)
+    }
+    #livros {
+        background-image: url(imgColuna.png);
+        width: 7rem;
+    }
+    #vendas {
+        background-image: url(imgLink-quebrado.png);
+    }
+    .servico {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        
+        height: 20rem;
+        width: 30rem;
+        margin: 3rem 3rem;
+
+        font-size: larger;
+        text-decoration: solid;
+
+        color: #302218;
+    }
+
+    /* LINHA ARTIGOS */
+
+    .linhaArtigos {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .imagemArtigos {
+        width: 30rem;
+        height: 20rem;
+        border-radius: 20px;
+        background-size: cover; /* Ajusta a imagem para cobrir o elemento */
+        background-position: center; /* Centraliza a imagem */
+        background-repeat: no-repeat; /* Evita repetição da imagem */
+        background-color: #302218;
+
+        margin: 0px 0px 1rem 0px;
+    }
+    #imgArtigo1 {
+        background-image: url(#)
+    }
+    #imgArtigo2 {
+        background-image: url(indexLivraria.html);
+    }
+    #imgArtigo3 {
+        background-image: url(#);
+    }
+    .artigo {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        
+        height: 30rem;
+        width: 100%;
+        margin: 3rem 3rem;
+
+        font-size: larger;
+        text-decoration: solid;
+
+        color: #302218;
+    }
+
+    /* DESCRIÇÃO */
     .modulo3 {
+        display: flex;
         flex-direction: column;
     }
     .descricao {
-        width: 50rem;
+        display: flex;
+        flex-direction: column;
+        margin: 0rem 5rem 5rem 5rem;
+
+        width: 30rem;
     }
     .tituloDescricao {
         margin: 0px 0px 25px 0px;
-        font-size: 1.8rem;
-        text-decoration: solid;
+        font-size: 3rem;
+        font-style: "bold";
     }
     .textoDescricao {
-        font-size: 1.2rem;
+        font-size: 2.5rem;
         margin: 0px 0px 25px 0px;
-    }   
+    }    
     .slogan {
         font-size: 1.2rem;
     }
@@ -251,19 +325,11 @@
         flex-direction: column;
     }
     .imagemFilosofo {
-        width: 40rem;
-        margin: 20px 0px 0px 0px;
-        height: 35rem;
+        width: 100%;
+        height: 60rem;
         background-size: cover; /* Ajusta a imagem para cobrir o elemento */
         background-position: center; /* Centraliza a imagem */
         background-repeat: no-repeat; /* Evita repetição da imagem */
         background-image: url(imgFilosofo.png);
     }
 }
-
-
-
-
-
-
-
