@@ -170,6 +170,22 @@
 /* CASO A TELA SEJA PEQUENA */
 
 @media (max-width: 1000px) {
+    .servico {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        
+        width: 60rem;
+        height: 40rem;
+        margin: 3rem 3rem;
+    
+        font-size: larger;
+        text-decoration: solid;
+    
+        color: #302218;
+    }
     .linhaServicos {
         display: flex;
         flex-direction: column;
@@ -178,7 +194,7 @@
     }
     .imagemArtigos {
         width: 60rem;
-        height: 20rem;
+        height: 40rem;
         border-radius: 10px;
         background-size: cover; /* Ajusta a imagem para cobrir o elemento */
         background-position: center; /* Centraliza a imagem */
@@ -239,5 +255,6 @@
     }
 
 }
+
 
 
